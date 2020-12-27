@@ -5,7 +5,7 @@
 Escape characters represents characters in string values .
 
 2. What do the \n and \t escape characters represent?\
-**Answer:**\
+**Answer:**
 - \n is newline
 - \t is tab
 
@@ -22,26 +22,26 @@ This is valid because double quotes are used to mark the begining and the end of
 Multiline strings.
 
 6. What do the following expressions evaluate to?\
-Hello, world!'[1]
+Hello, world!'[1]\
 - 'e'
-'Hello, world!'[0:5]
+'Hello, world!'[0:5]\
 - 'Hello'
-'Hello, world!'[:5]
+'Hello, world!'[:5]\
 - 'Hello'
-'Hello, world!'[3:]
+'Hello, world!'[3:]\
 - 'lo, world!'
 
 7. What do the following expressions evaluate to?\
 'Hello'.upper()
-- 'HELLO'
+- 'HELLO'\
 'Hello'.upper().isupper()
-- True
+- True\
 'Hello'.upper().lower()
 - 'hello'
 
 8. What do the following expressions evaluate to?
 'Remember, remember, the fifth of November.'.split()
-- ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
+- ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']\
 '-'.join('There can be only one.'.split())
 - 'There-can-be-only-one.'
 
