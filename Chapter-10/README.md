@@ -1,8 +1,8 @@
 ## Chapter-10
 ### Practice questions
 1. What is the difference between shutil.copy() and shutil.copytree()?\
-**Answer:**\
-- shutil.copy() copies a single file\
+**Answer:**
+- shutil.copy() copies a single file
 - shutil.copytree() copies an entire folder.
 
 2. What function is used to rename files?\
