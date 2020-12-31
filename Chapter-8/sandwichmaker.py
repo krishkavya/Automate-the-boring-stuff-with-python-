@@ -45,32 +45,19 @@ elif cheese == 'mozzarella':
 elif cheese == 'No':
     cPrice = noCheeseP
 
-mayoP = 4
-mustardP = 5
-lettuceP = 7
-tomatoP = 8
-noP = 0
 
 print("mayo, mustard, lettuce, or tomato?(yes/no)")
 response = pyip.inputYesNo()
 if response == "yes":
-    a= pyip.inputMenu(['mayo', 'mustard', 'lettuce', 'tomato'])
-else:
-    a = "no"
-if a == 'mayo':
-    ap = mayoP
-elif a == 'mustard':
-    aP = mustardP
-elif a== 'lettuce':
-    aP = lettuceP
-elif a == 'tomato':
-    aP = tomatoP
-elif a == 'no':
-    aP = noP
+   price=20
+else :
+  price=0
+
+ 
 
 print("number of sandwiches required :")
 number = pyip.inputInt(min = 1)
-sandwichP = bprice + pprice + cPrice +aP
+sandwichP = bprice + pprice + cPrice +price
 total = sandwichP * number
 
 print("total cost : ",total)
