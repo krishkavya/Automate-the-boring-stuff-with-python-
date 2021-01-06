@@ -50,7 +50,7 @@ pyautogui.getWindowsWithTitle('Notepad')
 
 13. How can you make, say, the Firefox browser active and in front of every other window on the screen?\
 **Answer:**\
-w = pyatuogui.getWindowsWithTitle('Firefox')
+w = pyatuogui.getWindowsWithTitle('Firefox')\
 w.activate()
 
 
